@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\"",
     "semantic-release:pre": "semantic-release pre",
     "semantic-release": "semantic-release pre && npm publish && semantic-release post",
-    "build": "babel src -d dist"
+    "build": "babel src -d dist",
+    "develop": "node dist/index.js"
   },
   "repository": {
     "type": "git",
